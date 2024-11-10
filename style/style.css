@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/lato/Lato-Black.ttf);
+}
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/lato/Lato-Light.ttf);
+}
+body{
+    background: #fff;
+    scroll-behavior: smooth;
+}
+.header{
+    background: #222222;
+}
+.headLogo{
+    display: flex;
+    justify-content: space-between;
+
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.headerLeft{
+    display: flex;
+    gap: 41px;
+    margin-top: 19px;
+    margin-bottom: 18px;
+
+}
+.headerRight{
+    display: flex;
+    gap: 33px;
+    margin-bottom: 18px;
+    margin-top: 28px;
+}
+.main{
+
+}
+.shapka{
+    background-color: #F1E4E6;
+
+}
+.shapkaContent{
+    display: flex;
+
+}
+.imageShapka{
+    max-height: 764px;
+
+}
+.shapkaContentBlock{
+    display: flex;
+    margin-top: 290px;
+    margin-bottom: 380px;
+    margin-left: 64px;
+    flex-direction: column;
+    border-left: 12px solid #F16D7F;
+
+}
+.shapkaContentBlock h1{
+    font-family: Lato-Black;
+    font-size: 48px;
+    color: #222222;
+    margin-left: 16px;
+}
+.shapkaParagraph{
+    display: flex;
+    font-family: Lato-Bold;
+    font-size: 32px;
+    color: #222222;
+    margin-left: 16px;
+}
+.shapkaParagraphLeft{
+    font-family: Lato-Bold;
+    font-size: 32px;
+    color: #222222;
+}
+.shapkaParagraphRight{
+    margin-left: 5px;
+    font-family: Lato-Bold;
+    font-size: 32px;
+    color: #F16D7F;
+}
+.cart1Collection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 64px;
+}
+.cart1{
+    position: relative;
+
+}
+.cart1Text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.cart1Text p{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #fff;
+}
+.cart1Text h2{
+    font-family: Lato-Bold;
+    font-size: 24px;
+    color: #F16D7F;
+}
+.cart2BlockGeneral{
+    margin-top: 96px;
+
+}
+.cart2BlockText{
+    text-align: center;
+}
+.cart2BlockText h2{
+    font-family: Lato-Regular;
+    font-size: 30px;
+    color: #222222;
+}
+.cart2BlockText p{
+    margin-top: 6px;
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #9F9F9F;
+}
+.cart2Block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 48px;
+
+}
+.cart2{
+    background-color: #F8F8F8;
+
+}
+.textCart2{
+    text-align: left;
+    margin-left: 16.46px;
+    margin-right: 28.8px;
+}
+.cart2 p{
+    font-family: Lato-Light;
+    font-size: 14px;
+    color: #5d5d5d;
+    margin-top: 12.65px;
+}
+.cart2 h2{
+    font-family: Lato-Regular;
+    font-size: 13px;
+    color: #000000;
+    margin-top: 24.35px;
+}
+.priceCart2{
+margin-top: 18px;
+margin-bottom: 20px;
+}
+.priceCart2 h2{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #F16D7F;
+}
+.allCart2View{
+    margin-top: 48px;
+    margin-bottom: 60px;
+    text-align: center;
+    
+
+}
+.buttonViewCart2{
+    cursor: pointer;
+    border: 39px 15px;
+    border-color: #F16D7F;
+    background: none;
+    height: 48px;
+    width: 212px;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #f26376;
+}
