@@ -54,9 +54,6 @@ body {
 .shapkaContent {
 display: flex;
 }
-.imageShapka {
-
-}
 .imageShapka2{
     max-height: 764px;
     max-width: auto;
@@ -210,8 +207,6 @@ display: flex;
   .container {
     max-width: 736px;
   }
-  .shapka {
-  }
   .shapkaContentBlock {
     margin-top: 138px;
     margin-bottom: 138px;
@@ -225,9 +220,9 @@ display: flex;
   .shapkaParagraph {
     font-size: 24px;
   }
-  .imageShapka2{
+  .imageShapka2 {
     max-height: 368px;
-}
+  }
   .shapkaParagraphLeft {
     font-size: 24px;
   }
@@ -239,10 +234,10 @@ display: flex;
     gap: 20px;
     margin-top: 65px;
   }
-  .cart1{
+  .cart1 {
     max-height: 303px;
   }
-  .cart1_big{
+  .cart1_big {
     min-height: 116px;
   }
   .cart2BlockText p {
@@ -264,3 +259,65 @@ display: flex;
     margin-bottom: 70.5px;
   }
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .container {
+    max-width: 343px;
+  }
+  .accountIco{
+    display: none;
+  }
+  .shopCart{
+    display: none;
+  }
+  .imageShapka2
+  {
+    display: none;
+    max-height: auto;
+  }
+
+  .shapkaContentBlock {
+    margin-bottom: 148px;
+    margin-top: 148px;
+  }
+  .shapkaParagraphRight {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .shapkaContentBlock h1 {
+    font-size: 38px;
+  }
+  .shapkaParagraph {
+    font-size: 20px;
+  }
+  .shapkaParagraphLeft {
+    font-size: 20px;
+  }
+  .cart2Block {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 65px;
+  }
+  .cart1Collection{
+    grid-template-columns: 1fr;
+    margin:auto;
+    margin-top: 64px;
+  }
+  .cart1_big {
+    min-height: 111px;
+  }
+  .cart1_big-2{
+    min-height: 111px;
+    background-position: center;
+    background-size: cover;
+  }
+  .cart2BlockGeneral {
+    margin-top: 54px;
+  }
+  .allCart2View {
+    margin-top: 41px;
+    margin-bottom: 96px;
+  }
+}
+
