@@ -484,7 +484,10 @@ display: flex;
   gap: 8px;
 }
 
-.footer__social-link {
+.footer__social-link1,
+.footer__social-link2,
+.footer__social-link3,
+.footer__social-link4 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -496,7 +499,19 @@ display: flex;
   background-position: center;
 }
 
-.footer__social-link:hover {
+.footer__social-link1:hover {
+  color: #fff;
+  background-color: #ed455c;
+}
+.footer__social-link2:hover {
+  color: #fff;
+  background-color: #ed455c;
+}
+.footer__social-link3:hover {
+  color: #fff;
+  background-color: #ed455c;
+}
+.footer__social-link4:hover {
   color: #fff;
   background-color: #ed455c;
 }
