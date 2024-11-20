@@ -312,7 +312,7 @@ display: flex;
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  color: #ed455c;
+  color: #d9394f;
 }
 .delivery {
   background-color: #222224;
@@ -456,7 +456,7 @@ display: flex;
   font-style: normal;
   font-display: swap;
   color: #fff;
-  background-color: #ed455c;
+  background-color: #eb3750;
   cursor: pointer;
 }
 .footer {
